@@ -8,25 +8,58 @@
   <title></title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.js">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <!--START-->
-  <div class="container-fluid">
+
+  <div class="container jumbotron">
+    <audio id="thunder" src="sound1.mp3"></audio>
     <div class="spacer"></div>
-    <div class="row well text-center">
-      <div class="col-md-12">
 
-        <h1>the promolo clock</h1>
+    <div id="one" class="row text-center">
+      <h1>THE PAMADORO CLOCK</h1>
 
+      <div id="insidemain" class="col-md-12 text-center">
 
+        <h2>session time</h2>
+        <span>
+  <input id="add" type="button" value="+" class="btn btn-primary">
+</span>
+        <span>
+  <div id="num1">
+    5
+  </div>
+</span>
+        <span>
+  <input id="takeaway" type="button"  value="-" class="btn btn-primary">
+</span>
+<br>
+<input id="start" type="button" value="start" class="btn btn-primary">
 
       </div>
+      <div id="time" class="col-md-12">
+        <p>the time goes here</p>
+      </div>
+      <div id="two" class="col-md-12 text-center">
+        <h2>break time</h2>
+        <span>
+  <input id="add2" type="button" value="+" class="btn btn-primary">
+</span>
+        <span>
+  <div id="num2">
+    5
+  </div>
+</span>
+        <span>
+  <input id="takeaway2" type="button"  value="-" class="btn btn-primary">
+</span>
+<br>
+<input type="button" value="reset" class="btn btn-primary">
 
-
+      </div>
     </div>
-
 
 
     <div class="spacer"></div>
